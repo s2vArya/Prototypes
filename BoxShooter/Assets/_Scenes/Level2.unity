@@ -221,8 +221,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  canBeatLevel: 1
-  beatLevelScore: 50
+  canBeatLevel: 0
+  beatLevelScore: 0
   startTime: 15
   mainScoreDisplay: {fileID: 243092129}
   mainTimerDisplay: {fileID: 235531396}
@@ -231,8 +231,8 @@ MonoBehaviour:
   gameIsOver: 0
   playAgainButtons: {fileID: 813941973}
   playAgainLevelToLoad: Level1
-  nextLevelButtons: {fileID: 181143065}
-  nextLevelToLoad: Level2
+  nextLevelButtons: {fileID: 0}
+  nextLevelToLoad: 
 --- !u!1 &102597275 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1664637598307937190, guid: b8eace5065cba0b4ea63710c0800300a,
@@ -1670,7 +1670,7 @@ MonoBehaviour:
   spawnObjects:
   - {fileID: 177207525692653440, guid: d4194899340809b4bbf26e34a2353ee5, type: 3}
   - {fileID: 3847596447125156032, guid: c5b11a73162ee4c4688e79cde4e35237, type: 3}
-  - {fileID: 2180112910341007827, guid: 6884bee20e85ef44d9b7f3683b6348cc, type: 3}
+  - {fileID: 3847596447125156032, guid: f57cb7d486f3f3845af6c009fe4392e6, type: 3}
   - {fileID: 2180112910341007827, guid: 6884bee20e85ef44d9b7f3683b6348cc, type: 3}
   - {fileID: 2180112910341007827, guid: 60086be7df1ab624d917e1fd2141ba93, type: 3}
   - {fileID: 2180112910341007827, guid: 60086be7df1ab624d917e1fd2141ba93, type: 3}
